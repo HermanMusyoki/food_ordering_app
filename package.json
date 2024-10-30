@@ -10,11 +10,15 @@
   },
   "dependencies": {
     "@auth/mongodb-adapter": "^3.5.0",
+    "@aws-sdk/client-s3": "^3.682.0",
+    "bcrypt":"*",
     "mongodb": "^6.9.0",
     "mongoose": "^8.6.2",
     "next": "14.0.4",
+    "next-auth": "^4.24.10",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
