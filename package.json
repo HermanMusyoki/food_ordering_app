@@ -9,13 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth/mongodb-adapter": "^3.5.0",
+    "@auth/mongodb-adapter": "^3.7.2",
     "@aws-sdk/client-s3": "^3.682.0",
-    "bcrypt":"*",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "chalk": "4.1.2",
     "mongodb": "^6.9.0",
     "mongoose": "^8.6.2",
-    "next": "14.0.4",
-    "next-auth": "^4.24.10",
+    "next": "^14.2.16",
+    "next-auth": "^4.24.7",
+    "node-fetch": "^2.7.0",
     "react": "^18",
     "react-dom": "^18",
     "react-hot-toast": "^2.4.1"
